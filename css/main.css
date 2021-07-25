@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+header,footer{
+    background: #ee7606;
+    color: #fff;
+    height: 120px;
+  }
+
+footer {
+    height: 60px;
+    text-align: center;
+  }
+
+.page-title {
+    padding: 30px;
+    font-size: 5em;
+    line-height: 0.8em;
+  }
+
+  a:hover {
+	color: #ff0000;
+	background-color: #fee;
+  }
+
+.images p {
+	display: inline-block;
+	text-align: center;
+	line-height: 1.2;
+    font-size: 20px;
+  }
+.images p a {
+	display: block;
+  }
+
+.main {
+    height: calc(50vh - 120px - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+#typo {
+    font-weight: bold;
+    font-size: 50px;
+    color: #232323;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  } 
