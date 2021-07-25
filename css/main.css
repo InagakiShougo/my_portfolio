@@ -3,30 +3,93 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
   }
-  
 
-header,footer{
-    background: #ee7606;
-    color: #fff;
-    height: 120px;
+  :root { 
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-feature-settings: "palt";
+    font-size: 16pt;
   }
+
+ body{
+    background: #cbeaff;
+ }
+ 
+
+ .title h1 {
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 1rem;
+
+    color: #f3ef12;
+    text-shadow: 2px 2px 0 #00000042;
+}
+
+.title {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    background-color: #0345fa;
+
+    box-shadow: 0 2px 1rem #00000042;
+}
+
+.title .menu ul {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+}
+
+.title .menu ul a {
+    color:  #f3ef12;
+    text-decoration: none;
+
+    display: inline-block;
+    line-height: 1; 
+    font-size: 1.125rem;
+    padding: calc(1.25rem - 4px) 2rem;
+
+    transition: color,background-color 0.3s;
+
+    border-right: 1px solid #0000001f;
+    border-top: 4px solid transparent; 
+    border-bottom: 4px solid transparent; 
+}
+
+.title .menu ul li:last-child a {
+    border-right: none;
+}
+
+
+.global-nav .menu ul a:hover {
+    background-color: #f3ef12;
+    color: #70fd54;;
+    border-bottom: 4px solid #70fd54;;
+}
+
 
 footer {
     height: 60px;
     text-align: center;
+    background: #0345fa;
+    color: #fff;
+    bottom: 0;
   }
 
-.page-title {
-    padding: 30px;
-    font-size: 5em;
-    line-height: 0.8em;
-  }
+
 
   a:hover {
-	color: #ff0000;
-	background-color: #fee;
+	color: #f3ef12;
+	background-color: #0985f8;
   }
 
 .images p {
@@ -37,6 +100,7 @@ footer {
   }
 .images p a {
 	display: block;
+
   }
 
 .main {
@@ -46,12 +110,3 @@ footer {
     align-items: center;
     justify-content: center;
   }
-#typo {
-    font-weight: bold;
-    font-size: 50px;
-    color: #232323;
-    text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  } 

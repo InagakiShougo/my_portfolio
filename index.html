@@ -5,11 +5,22 @@
         <meta http-equiv="X-UA-compatible" content="IE=edge">
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <title>My portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700&display=swap" rel="stylesheet">
         <link href="./css/lightbox.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
-        <h1>GitHub Pages Sample</h1>
+        <header class="title">
+            <h1>Portfolio</h1>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#sec1">My Profiel</a></li>
+                    <li><a href="#sec2">My contents</a></li>
+                </ul>
+            </nav>
+        </header>
+        
         <p>これはサンプルです。</p>
         <p>ここにはテキストを追加します。</p>
         <div class="images">
@@ -17,7 +28,7 @@
                 <a href="img/img-1.png" data-lightbox="contents" date-title="ボトルデッサン"><img src="img/img-1.png" alt=" bottle"><br>ボトル</a>
             </p>
             <p>
-                <a href="img/img-2.png" data-lightbox="contents" date-title="ボトルデッサン"><img src="img/img-2.png" alt=" bottle"><br>ボトル</a>
+                <a href="img/img-2.png" data-lightbox="contents" date-title="ボトルデッサン"><img src="img/img-2.png" alt=" bottle"><br>細道</a>
             </p>
             <p>
                 <a href="img/img-3.png" data-lightbox="contents" date-title="ボトルデッサン"><img src="img/img-3.png" alt=" bottle"><br>ボトル</a>
@@ -26,6 +37,11 @@
                 <a href="img/img-4.png" data-lightbox="contents" date-title="ボトルデッサン"><img src="img/img-4.png" alt=" bottle"><br>ボトル</a>
             </p>
         </div>
+
+
+        <footer class="page-footer" role="contentinfo">
+            <small class="copyright">&copy; x20010_inagaki-shogo</small>
+        </footer>
 
         <script src="./js/jquery-3.6.0.min.js"></script>
         <script src="./js/lightbox.js"></script>
