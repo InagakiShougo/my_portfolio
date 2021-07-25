@@ -70,10 +70,40 @@
 }
 
 
-.global-nav .menu ul a:hover {
-    background-color: #f3ef12;
-    color: #70fd54;;
-    border-bottom: 4px solid #70fd54;;
+.title .menu ul a:hover {
+    background-color: #12acf3;
+    color: #f3ef12;;
+    border-bottom: 4px solid #f3ef12;
+}
+
+#sec1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #12acf3;
+    color: #f3ef12;
+    font-size: 5rem;
+}
+
+
+
+
+#sec2 {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mc{
+    
+    font-size: 5rem;
+    text-align:center;
+    color: #f3ef12; 
+    background-color: #0345fa;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
@@ -81,15 +111,15 @@ footer {
     height: 60px;
     text-align: center;
     background: #0345fa;
-    color: #fff;
+    color: #f3ef12;
     bottom: 0;
   }
 
 
 
   a:hover {
-	color: #f3ef12;
-	background-color: #0985f8;
+	color: #fffb00da;
+	background-color: #12acf3;
   }
 
 .images p {
