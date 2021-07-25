@@ -16,7 +16,6 @@
     background: #cbeaff;
  }
  
-
  .title h1 {
     font-size: 2rem;
     font-family: 'Noto Sans JP', sans-serif;
@@ -72,18 +71,70 @@
 
 .title .menu ul a:hover {
     background-color: #12acf3;
-    color: #f3ef12;;
+    color: #f3ef12;
     border-bottom: 4px solid #f3ef12;
 }
+
+.profile-photo img {
+    display: block; 
+    width: 350px; 
+    height: 350px; 
+    border-radius: 50%; 
+  }
+  .profile-text {
+    max-width: 600px; 
+    padding: 2rem; 
+    color: #f3ef12;
+    background-color: #0345fa;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .pro{
+      font-size: 4rem; 
+      
+  }
+  .social {
+    list-style: none; 
+    display: flex; 
+    margin-top: 1.5rem; 
+    
+  }
+
+.social li {
+    line-height: 1; 
+    padding: 0.5rem;  
+    font-size: 1.5rem; 
+  }
+
+  
+.social li a {
+    text-decoration: none; 
+    color: #ffffff;  
+    transition: 1s color; 
+    
+  }
+
+  
+.social li a:hover {
+    color: #f3ef12;  
+  }
+
+
+
 
 #sec1 {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     background-color:  #12acf3;
-    color: #f3ef12;
+    
+}
+.mp{
     font-size: 5rem;
+    text-align: center;
+    color: #f3ef12; 
+    background-color: #0345fa;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
